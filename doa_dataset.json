@@ -1,0 +1,242 @@
+[
+  {
+    "id": "DOA_SEBELUM_MAKAN",
+    "judul": "Doa Sebelum Makan",
+    "arab": "اللَّهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ",
+    "latin": "Allahumma bārik lanā fīmā razaqtanā waqinā ‘adzāban-nār",
+    "arti": "Ya Allah, berkahilah rezeki yang Engkau berikan kepada kami dan lindungilah kami dari siksa neraka.",
+    "sumber": "Doa umum"
+  },
+  {
+    "id": "DOA_SESUDAH_MAKAN",
+    "judul": "Doa Sesudah Makan",
+    "arab": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِينَ",
+    "latin": "Alhamdulillāhilladzī ath‘amanā wasaqānā waja‘alanā muslimīn",
+    "arti": "Segala puji bagi Allah yang telah memberi kami makan dan minum serta menjadikan kami orang Islam.",
+    "sumber": "HR. Abu Dawud"
+  },
+  {
+  "id": "DOA_MUSIBAH_UMUM",
+  "judul": "Doa Saat Tertimpa Musibah",
+  "arab": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+  "latin": "Innā lillāhi wa innā ilayhi rāji‘ūn",
+  "arti": "Sesungguhnya kami milik Allah dan kepada-Nya kami kembali.",
+  "sumber": "QS. Al-Baqarah: 156"
+},
+  {
+    "id": "DOA_KELUAR_RUMAH",
+    "judul": "Doa Keluar Rumah",
+    "arab": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+    "latin": "Bismillāhi tawakkaltu ‘alallāh, lā ḥaula wa lā quwwata illā billāh",
+    "arti": "Dengan nama Allah, aku bertawakal kepada Allah. Tidak ada daya dan kekuatan kecuali dengan pertolongan Allah.",
+    "sumber": "HR. Abu Dawud"
+  },
+  {
+    "id": "DOA_MASUK_RUMAH",
+    "judul": "Doa Masuk Rumah",
+    "arab": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ الْمَوْلِجِ وَخَيْرَ الْمَخْرَجِ",
+    "latin": "Allāhumma innī as’aluka khayral-mawliji wa khayral-makhraji",
+    "arti": "Ya Allah, aku memohon kepada-Mu tempat masuk dan keluar yang baik.",
+    "sumber": "HR. Abu Dawud"
+  },
+  {
+    "id": "DOA_SEBELUM_TIDUR",
+    "judul": "Doa Sebelum Tidur",
+    "arab": "بِاسْمِكَ اللَّهُمَّ أَحْيَا وَبِاسْمِكَ أَمُوتُ",
+    "latin": "Bismikallāhumma aḥyā wa bismika amūt",
+    "arti": "Dengan nama-Mu ya Allah aku hidup dan dengan nama-Mu aku mati.",
+    "sumber": "HR. Bukhari"
+  },
+  {
+    "id": "DOA_BANGUN_TIDUR",
+    "judul": "Doa Bangun Tidur",
+    "arab": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا",
+    "latin": "Alhamdulillāhilladzī aḥyānā ba‘da mā amātanā",
+    "arti": "Segala puji bagi Allah yang telah menghidupkan kami setelah mematikan kami.",
+    "sumber": "HR. Bukhari"
+  },
+  {
+    "id": "DOA_MASUK_KAMAR_MANDI",
+    "judul": "Doa Masuk Kamar Mandi",
+    "arab": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+    "latin": "Allāhumma innī a‘ūdzu bika minal-khubutsi wal-khabā’its",
+    "arti": "Ya Allah, aku berlindung kepada-Mu dari kejahatan setan laki-laki dan perempuan.",
+    "sumber": "HR. Bukhari"
+  },
+  {
+    "id": "DOA_KELUAR_KAMAR_MANDI",
+    "judul": "Doa Keluar Kamar Mandi",
+    "arab": "غُفْرَانَكَ",
+    "latin": "Ghufrānak",
+    "arti": "Aku memohon ampunan-Mu.",
+    "sumber": "HR. Abu Dawud"
+  },
+  {
+    "id": "DOA_MEMAKAI_PAKAIAN",
+    "judul": "Doa Memakai Pakaian",
+    "arab": "اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ كَسَوْتَنِيهِ",
+    "latin": "Allāhumma lakal-ḥamdu anta kasautanīhi",
+    "arti": "Ya Allah, segala puji bagi-Mu Engkau telah memberiku pakaian ini.",
+    "sumber": "HR. Abu Dawud"
+  },
+  {
+    "id": "DOA_MELEPAS_PAKAIAN",
+    "judul": "Doa Melepas Pakaian",
+    "arab": "بِسْمِ اللَّهِ",
+    "latin": "Bismillāh",
+    "arti": "Dengan nama Allah.",
+    "sumber": "HR. Tirmidzi"
+  },
+  {
+    "id": "DOA_NAIK_KENDARAAN",
+    "judul": "Doa Naik Kendaraan",
+    "arab": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا",
+    "latin": "Subḥānalladzī sakhkhara lanā hādzā",
+    "arti": "Maha Suci Allah yang telah menundukkan kendaraan ini bagi kami.",
+    "sumber": "QS. Az-Zukhruf: 13"
+  },
+  {
+    "id": "DOA_TURUN_HUJAN",
+    "judul": "Doa Saat Turun Hujan",
+    "arab": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+    "latin": "Allāhumma ṣayyiban nāfi‘ā",
+    "arti": "Ya Allah, turunkanlah hujan yang bermanfaat.",
+    "sumber": "HR. Bukhari"
+  },
+  {
+    "id": "DOA_SESAAT_HUJAN_LEBAT",
+    "judul": "Doa Saat Hujan Lebat",
+    "arab": "اللَّهُمَّ حَوَالَيْنَا وَلَا عَلَيْنَا",
+    "latin": "Allāhumma ḥawālainā wa lā ‘alainā",
+    "arti": "Ya Allah, turunkanlah hujan di sekitar kami, bukan menimpa kami.",
+    "sumber": "HR. Bukhari"
+  },
+  {
+    "id": "DOA_SAKIT",
+    "judul": "Doa Ketika Sakit",
+    "arab": "اللَّهُمَّ اشْفِنِي شِفَاءً لَا يُغَادِرُ سَقَمًا",
+    "latin": "Allāhumma ishfinī shifā’an lā yughadiru saqamā",
+    "arti": "Ya Allah, sembuhkanlah aku dengan kesembuhan yang tidak meninggalkan rasa sakit.",
+    "sumber": "Doa umum"
+  },
+  {
+    "id": "DOA_MEMOHON_ILMU",
+    "judul": "Doa Memohon Ilmu",
+    "arab": "رَبِّ زِدْنِي عِلْمًا",
+    "latin": "Rabbi zidnī ‘ilmā",
+    "arti": "Ya Tuhanku, tambahkanlah aku ilmu.",
+    "sumber": "QS. Thaha: 114"
+  },
+  {
+    "id": "DOA_MOHON_AMPUN",
+    "judul": "Doa Memohon Ampunan",
+    "arab": "رَبِّ اغْفِرْ لِي",
+    "latin": "Rabbighfir lī",
+    "arti": "Ya Tuhanku, ampunilah aku.",
+    "sumber": "QS. Nuh: 28"
+  },
+  {
+    "id": "DOA_MOHON_KETENANGAN_HATI",
+    "judul": "Doa Memohon Ketenangan Hati",
+    "arab": "اللَّهُمَّ اشْرَحْ لِي صَدْرِي",
+    "latin": "Allāhumma ishraḥ lī ṣadrī",
+    "arti": "Ya Allah, lapangkanlah dadaku.",
+    "sumber": "Doa umum"
+  },
+  {
+    "id": "DOA_SEBELUM_BELAJAR",
+    "judul": "Doa Sebelum Belajar",
+    "arab": "اللَّهُمَّ انْفَعْنِي بِمَا عَلَّمْتَنِي",
+    "latin": "Allāhumma anfa‘nī bimā ‘allamtanī",
+    "arti": "Ya Allah, berilah manfaat atas ilmu yang Engkau ajarkan kepadaku.",
+    "sumber": "Doa umum"
+  },
+  {
+    "id": "DOA_SETELAH_BELAJAR",
+    "judul": "Doa Setelah Belajar",
+    "arab": "اللَّهُمَّ إِنِّي أَسْتَوْدِعُكَ مَا عَلَّمْتَنِي",
+    "latin": "Allāhumma innī astawdi‘uka mā ‘allamtanī",
+    "arti": "Ya Allah, aku titipkan kepada-Mu ilmu yang telah Engkau ajarkan kepadaku.",
+    "sumber": "Doa umum"
+  },
+  {
+    "id": "DOA_MOHON_REZEKI",
+    "judul": "Doa Memohon Rezeki",
+    "arab": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ",
+    "latin": "Allāhumma ikfinī biḥalālika ‘an ḥarāmik",
+    "arti": "Ya Allah, cukupkanlah aku dengan rezeki halal-Mu dan jauhkan dari yang haram.",
+    "sumber": "HR. Tirmidzi"
+  },
+  {
+    "id": "DOA_KELAPANGAN_URUSAN",
+    "judul": "Doa Memohon Kemudahan Urusan",
+    "arab": "اللَّهُمَّ لَا سَهْلَ إِلَّا مَا جَعَلْتَهُ سَهْلًا",
+    "latin": "Allāhumma lā sahla illā mā ja‘altahu sahlā",
+    "arti": "Ya Allah, tidak ada kemudahan kecuali yang Engkau jadikan mudah.",
+    "sumber": "Doa umum"
+  },
+  {
+    "id": "DOA_MOHON_PERLINDUNGAN",
+    "judul": "Doa Memohon Perlindungan",
+    "arab": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ",
+    "latin": "A‘ūdzu bikalimātillāhit-tāmmāt",
+    "arti": "Aku berlindung dengan kalimat-kalimat Allah yang sempurna.",
+    "sumber": "HR. Muslim"
+  },
+  {
+    "id": "DOA_MOHON_PETUNJUK",
+    "judul": "Doa Memohon Petunjuk",
+    "arab": "اللَّهُمَّ اهْدِنِي",
+    "latin": "Allāhumma ihdinī",
+    "arti": "Ya Allah, tunjukilah aku jalan yang benar.",
+    "sumber": "Doa umum"
+  },
+  {
+    "id": "DOA_KETIKA_SEDANG_SUSAH",
+    "judul": "Doa Ketika Sedang Susah",
+    "arab": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+    "latin": "Lā ilāha illā anta subḥānaka innī kuntu minaẓ-ẓālimīn",
+    "arti": "Tidak ada Tuhan selain Engkau, Maha Suci Engkau, sungguh aku termasuk orang yang zalim.",
+    "sumber": "QS. Al-Anbiya: 87"
+  },
+  {
+    "id": "DOA_MASUK_MASJID",
+    "judul": "Doa Masuk Masjid",
+    "arab": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+    "latin": "Allāhummaftah lī abwāba raḥmatik",
+    "arti": "Ya Allah, bukakanlah untukku pintu-pintu rahmat-Mu.",
+    "sumber": "HR. Muslim"
+  },
+  {
+    "id": "DOA_KELUAR_MASJID",
+    "judul": "Doa Keluar Masjid",
+    "arab": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+    "latin": "Allāhumma innī as’aluka min faḍlik",
+    "arti": "Ya Allah, aku memohon kepada-Mu karunia-Mu.",
+    "sumber": "HR. Muslim"
+  },
+  {
+    "id": "DOA_SEBELUM_WUDHU",
+    "judul": "Doa Sebelum Wudhu",
+    "arab": "بِسْمِ اللَّهِ",
+    "latin": "Bismillāh",
+    "arti": "Dengan nama Allah.",
+    "sumber": "Doa umum"
+  },
+  {
+    "id": "DOA_SETELAH_WUDHU",
+    "judul": "Doa Setelah Wudhu",
+    "arab": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ",
+    "latin": "Ashhadu an lā ilāha illallāhu waḥdahū lā sharīka lah",
+    "arti": "Aku bersaksi bahwa tidak ada Tuhan selain Allah Yang Maha Esa.",
+    "sumber": "HR. Muslim"
+  },
+  {
+    "id": "DOA_BERCERMIN",
+    "judul": "Doa Bercermin",
+    "arab": "اللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+    "latin": "Allāhumma kamā ḥassanta khalqī faḥassin khuluqī",
+    "arti": "Ya Allah, sebagaimana Engkau telah memperindah rupaku, maka perindahlah akhlakku.",
+    "sumber": "HR. Ahmad"
+  }
+]

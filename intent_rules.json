@@ -1,0 +1,183 @@
+{
+  "bepergian": {
+    "type": "doa",
+    "canonical_query": "doa keluar rumah",
+    "keywords": [
+      "bepergian",
+      "pergi",
+      "berangkat",
+      "keluar rumah",
+      "ke pasar",
+      "ke kampus",
+      "ke kuliah",
+      "ke kantor",
+      "travelling",
+      "perjalanan"
+    ]
+  },
+
+  "makan": {
+    "type": "doa",
+    "canonical_query": "doa sebelum makan",
+    "keywords": [
+      "makan",
+      "sarapan",
+      "minum",
+      "makan siang",
+      "makan malam"
+    ]
+  },
+
+  "tidur": {
+    "type": "doa",
+    "canonical_query": "doa sebelum tidur",
+    "keywords": [
+      "tidur",
+      "istirahat",
+      "malam",
+      "hendak tidur"
+    ]
+  },
+
+  "mandi": {
+    "type": "doa",
+    "canonical_query": "doa masuk kamar mandi",
+    "keywords": [
+      "mandi",
+      "kamar mandi",
+      "toilet",
+      "wc"
+    ]
+  },
+
+  "wudhu": {
+    "type": "doa",
+    "canonical_query": "doa setelah wudhu",
+    "keywords": [
+      "wudhu",
+      "berwudhu",
+      "habis wudhu"
+    ]
+  },
+
+  "belajar": {
+    "type": "doa",
+    "canonical_query": "doa sebelum belajar",
+    "keywords": [
+      "belajar",
+      "ujian",
+      "kuliah",
+      "sekolah",
+      "menuntut ilmu"
+    ]
+  },
+
+  "sakit": {
+    "type": "doa",
+    "canonical_query": "doa ketika sakit",
+    "keywords": [
+      "sakit",
+      "demam",
+      "pusing",
+      "nyeri",
+      "tidak enak badan"
+    ]
+  },
+
+  "hujan": {
+    "type": "doa",
+    "canonical_query": "doa saat turun hujan",
+    "keywords": [
+      "hujan",
+      "cuaca",
+      "hujan deras"
+    ]
+  },
+
+  "rezeki": {
+    "type": "doa",
+    "canonical_query": "doa memohon rezeki",
+    "keywords": [
+      "rezeki",
+      "penghasilan",
+      "uang",
+      "nafkah"
+    ]
+  },
+
+  "ketenangan": {
+    "type": "doa",
+    "canonical_query": "doa memohon ketenangan hati",
+    "keywords": [
+      "gelisah",
+      "cemas",
+      "tenang",
+      "hati"
+    ]
+  },
+  "akhlak": {
+    "type": "hadis",
+    "canonical_query": "hadis tentang akhlak",
+    "keywords": [
+      "akhlak",
+      "perilaku",
+      "sikap",
+      "budi pekerti"
+    ]
+  },
+
+  "sosial": {
+    "type": "hadis",
+    "canonical_query": "hadis tentang sosial",
+    "keywords": [
+      "sosial",
+      "tetangga",
+      "masyarakat",
+      "ukhuwah",
+      "persaudaraan"
+    ]
+  },
+
+  "ibadah": {
+    "type": "hadis",
+    "canonical_query": "hadis tentang ibadah",
+    "keywords": [
+      "ibadah",
+      "sholat",
+      "zakat",
+      "puasa"
+    ]
+  },
+
+  "ilmu": {
+    "type": "hadis",
+    "canonical_query": "hadis tentang ilmu",
+    "keywords": [
+      "ilmu",
+      "belajar",
+      "menuntut ilmu",
+      "pendidikan"
+    ]
+  },
+
+  "sabar": {
+    "type": "hadis",
+    "canonical_query": "hadis tentang sabar",
+    "keywords": [
+      "sabar",
+      "ujian",
+      "cobaan",
+      "kesulitan"
+    ]
+  },
+
+  "syukur": {
+    "type": "hadis",
+    "canonical_query": "hadis tentang syukur",
+    "keywords": [
+      "syukur",
+      "nikmat",
+      "qanaah"
+    ]
+  }
+}

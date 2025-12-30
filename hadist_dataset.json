@@ -1,0 +1,378 @@
+[
+  {
+    "id": "HADIS_001",
+    "tema": "sosial",
+    "arab": "اَنَاوَكَافِلُ الْيَتِيْمِ فِى الْجَنَّةِ هَكَذَا وَأَشَارَبِالسَّبَّابَةِ وَالْوُسْطَى وَفَرَّجَ بَيْنَهُمَا",
+    "arti": "Aku dan orang yang memelihara anak yatim itu akan masuk surga seperti ini (Nabi memberi isyarat dengan jari telunjuk dan jari tengah dan merenggang keduanya).",
+    "sumber": "HR. Bukhari",
+    "kata_kunci": ["yatim", "surga", "kepedulian"]
+  },
+  {
+    "id": "HADIS_002",
+    "tema": "akhlak",
+    "arab": "لاَ يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيْهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "arti": "Salah seorang di antara kalian tidaklah beriman (dengan iman sempurna) sampai ia mencintai saudaranya sebagaimana ia mencintai dirinya sendiri.",
+    "sumber": "HR. Bukhari dan Muslim",
+    "kata_kunci": ["iman", "cinta", "persaudaraan"]
+  },
+  {
+    "id": "HADIS_003",
+    "tema": "dakwah",
+    "arab": "بَلِّغُوا عَنِّي وَلَوْ آيَةً",
+    "arti": "Sampaikanlah dariku walau hanya satu ayat.",
+    "sumber": "HR. Bukhari",
+    "kata_kunci": ["dakwah", "ilmu", "menyampaikan"]
+  },
+  {
+    "id": "HADIS_004",
+    "tema": "ibadah",
+    "arab": "تَعْبُدُ اللَّهَ لاَ تُشْرِكُ بِهِ شَيْئًا، وَتُقِيمُ الصَّلاَةَ، وَتُؤْتِي الزَّكَاةَ، وَتَصِلُ الرَّحِمَ",
+    "arti": "Beribadahlah pada Allah SWT dengan sempurna jangan syirik, dirikanlah sholat, tunaikan zakat, dan jalinlah silaturahmi dengan orangtua dan saudara.",
+    "sumber": "HR. Bukhari",
+    "kata_kunci": ["tauhid", "sholat", "zakat", "silaturahmi"]
+  },
+  {
+    "id": "HADIS_005",
+    "tema": "ilmu",
+    "arab": "مَنْ خَرَجَ فِى طَلَبِ الْعِلْمِ فَهُوَ فِى سَبِيلِ اللَّهِ حَتَّى يَرْجِعَ",
+    "arti": "Barang siapa yang keluar (rumah) untuk mencari ilmu maka dia termasuk orang yang berada di jalan Allah sampai dia pulang.",
+    "sumber": "HR. At-Tirmidzi",
+    "kata_kunci": ["ilmu", "jihad", "belajar"]
+  },
+  {
+    "id": "HADIS_006",
+    "tema": "ilmu",
+    "arab": "طَلَبُ الْعِلْمِ فَرِيْضَةٌ عَلَى كُلِّ مُسْلِمٍ",
+    "arti": "Menuntut ilmu itu wajib atas setiap Muslim.",
+    "sumber": "HR. Ibnu Majah",
+    "kata_kunci": ["ilmu", "wajib", "muslim"]
+  },
+  {
+    "id": "HADIS_007",
+    "tema": "ibadah",
+    "arab": "كُلُّ عَمَلِ ابْنِ آدَمَ لَهُ إِلا الصِّيَامَ فَإِنَّهُ لِي وَأَنَا أَجْزِي بِهِ",
+    "arti": "Semua amal anak Adam untuknya kecuali puasa. Ia untuk-Ku dan Aku yang akan membalasnya.",
+    "sumber": "HR. Bukhari dan Muslim",
+    "kata_kunci": ["puasa", "pahala", "ikhlas"]
+  },
+  {
+    "id": "HADIS_008",
+    "tema": "ibadah",
+    "arab": "مَنْ قَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا, غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+    "arti": "Barangsiapa yang puasa Ramadan karena iman dan mengharapkan pahala, akan diampuni dosa-dosanya yang telah lalu.",
+    "sumber": "HR. Bukhari dan Muslim",
+    "kata_kunci": ["ramadan", "iman", "ampunan"]
+  },
+  {
+    "id": "HADIS_009",
+    "tema": "kehidupan",
+    "arab": "وَاعْلَمْ أَنَّ النَّصْرَ مَعَ الصَّبْرِ، وَأَنَّ الْفَرَجَ مَعَ الْكَرْبِ، وَأَنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "arti": "Ketahuilah bahwasannya kemenangan itu bersama kesabaran, dan jalan keluar itu bersama kesulitan, dan bahwasanya bersama kesulitan ada kemudahan.",
+    "sumber": "HR. Tirmidzi",
+    "kata_kunci": ["sabar", "kemenangan", "kemudahan"]
+  },
+  {
+    "id": "HADIS_010",
+    "tema": "akhlak",
+    "arab": "وَمَا أُعْطِيَ أَحَدٌ عَطَاءً خَيْرًا وَأَوْسَعَ مِنْ الصَّبْرِ",
+    "arti": "Tidak ada seorang pun yang dianugerahi sesuatu yang melebihi kesabaran.",
+    "sumber": "HR. Bukhari",
+    "kata_kunci": ["sabar", "anugerah", "mental"]
+  },
+  {
+    "id": "HADIS_011",
+    "tema": "syukur",
+    "arab": "مَنْ لَمْ يَشْكُرِ الْقَلِيلَ لَمْ يَشْكُرِ الْكَثِيرَ",
+    "arti": "Barang siapa yang tidak mensyukuri yang sedikit, maka ia tidak akan mampu mensyukuri sesuatu yang banyak.",
+    "sumber": "HR. Ahmad",
+    "kata_kunci": ["syukur", "nikmat", "qanaah"]
+  },
+  {
+    "id": "HADIS_012",
+    "tema": "kebersihan",
+    "arab": "اِنَّ اللهَ طَيِّبٌ يُحِبُّ الطَّيِّبَ نَظِيْفٌ يُحِبُّ النَّظَافَةَ",
+    "arti": "Sesungguhnya Allah itu baik dan menyukai kebaikan, bersih dan menyukai kebersihan.",
+    "sumber": "HR. At-Tirmidzi",
+    "kata_kunci": ["kebersihan", "lingkungan", "iman"]
+  },
+  {
+    "id": "HADIS_013",
+    "tema": "akhlak",
+    "arab": "إِنَّ مِنْ مُوجِبَاتِ الْمَغْفِرَةِ بَذْلُ السَّلامِ، وَحُسْنُ الْكَلامِ",
+    "arti": "Di antara sebab mendapatkan ampunan Allah adalah menyebarkan salam dan bertutur kata yang baik.",
+    "sumber": "HR. Ath-Thabrani",
+    "kata_kunci": ["salam", "bicara baik", "ampunan"]
+  },
+  {
+    "id": "HADIS_014",
+    "tema": "sosial",
+    "arab": "إنَّ أَوْلَى النَّاس باللهِ مَنْ بَدَأهم بالسَّلام",
+    "arti": "Sesungguhnya orang yang paling utama di sisi Allah adalah mereka yang memulai salam.",
+    "sumber": "HR. Abu Dawud dan Tirmidzi",
+    "kata_kunci": ["salam", "adab", "sosial"]
+  },
+  {
+    "id": "HADIS_015",
+    "tema": "sosial",
+    "arab": "لَيْسَ الْوَاصِلُ بِالْمُكَافِئِ، وَلَكِنِ الْوَاصِلُ الَّذِي إِذَا قَطَعَتْ رَحِمُهُ وَصَلَهَا",
+    "arti": "Silaturahmi bukanlah yang saling membalas kebaikan. Namun, seorang yang berusaha menjalin hubungan baik meski lingkungan terdekat merusak hubungan persaudaraan.",
+    "sumber": "HR. Bukhari",
+    "kata_kunci": ["silaturahmi", "keluarga", "sabar"]
+  },
+  {
+    "id": "HADIS_016",
+    "tema": "ibadah",
+    "arab": "الْمَاهِرُ بِالْقُرْآنِ مَعَ السَّفَرَةِ الْكِرَامِ الْبَرَرَةِ",
+    "arti": "Orang yang pintar membaca Alquran akan tinggal bersama Jibril (Malaikat yang mulia).",
+    "sumber": "HR. Bukhari dan Muslim",
+    "kata_kunci": ["alquran", "membaca", "malaikat"]
+  },
+  {
+    "id": "HADIS_017",
+    "tema": "keluarga",
+    "arab": "أَلْجَنَّةُ تَحْتَ أَقْدَامِ الْأُمَّهَاتِ",
+    "arti": "Surga itu ada di bawah telapak kaki Ibu.",
+    "sumber": "HR. An-Nasa'i",
+    "kata_kunci": ["ibu", "birrul walidain", "surga"]
+  },
+  {
+    "id": "HADIS_018",
+    "tema": "sosial",
+    "arab": "تَبَسُّمُكَ فِى وَجْهِ أَخِيْكَ صَدَقَةٌ",
+    "arti": "Senyum engkau di hadapan saudaramu adalah sedekah.",
+    "sumber": "HR. Tirmidzi",
+    "kata_kunci": ["senyum", "sedekah", "akhlak"]
+  },
+  {
+    "id": "HADIS_019",
+    "tema": "akhlak",
+    "arab": "أَفْضَلُ الْإِيمَانِ الصَّبْرُ وَالسَّمَاحَةُ",
+    "arti": "Iman yang utama adalah sabar dan pemaaf.",
+    "sumber": "HR. Bukhari dan Ad Dailami",
+    "kata_kunci": ["sabar", "pemaaf", "iman"]
+  },
+  {
+    "id": "HADIS_020",
+    "tema": "akhlak",
+    "arab": "أَكْمَلُ الْمُؤْمِنِينَ إِيمَانًا أَحْسَنُهُمْ خُلُقًا",
+    "arti": "Orang yang sempurna imannya adalah yang paling baik akhlaknya.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["akhlak", "iman", "karakter"]
+  },
+  {
+    "id": "HADIS_021",
+    "tema": "ibadah",
+    "arab": "مَنْ غَدَا إِلَى الْمَسْجِدِ أَوْ رَاحَ أَعَدَّ اللهُ لَهُ فِي الْجَنَّةِ نُزُلاً كُلَّمَا غَدَا أَوْ رَاحَ",
+    "arti": "Barang siapa yang pergi ke masjid pagi dan sore, maka Allah akan menyiapkan jamuan untuknya dari surga setiap kali ia pergi pagi atau sore.",
+    "sumber": "HR. Bukhari dan Muslim",
+    "kata_kunci": ["masjid", "sholat", "surga"]
+  },
+  {
+    "id": "HADIS_022",
+    "tema": "ibadah",
+    "arab": "مَنْ حَافَظَ عَلَيْهَا كَانَتْ لَهُ نُورًا، وَبُرْهَانًا، وَنَجَاةً يَوْمَ الْقِيَامَةِ",
+    "arti": "Siapa saja yang menjaga sholat maka dia akan mendapatkan cahaya, petunjuk dan keselamatan pada hari kiamat.",
+    "sumber": "HR. Ahmad",
+    "kata_kunci": ["sholat", "kiamat", "cahaya"]
+  },
+  {
+    "id": "HADIS_023",
+    "tema": "dzikir",
+    "arab": "لَأَنْ أَقُولَ سُبْحَانَ اللهِ، وَالْحَمْدُ لِلَّهِ، وَلاَ إِلَهَ إِلاَّ اللهُ، وَاللهُ أَكْبَرُ، أَحَبُّ إِلَيَّ مِمَّا طَلَعَتْ عَلَيْهِ الشَّمسُ",
+    "arti": "Sesungguhnya ku ucapkan kalimat 'Subhanallah walhamdulillah...' lebih aku cintai dari pada semua yang disinari oleh matahari.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["dzikir", "tasbih", "pujian"]
+  },
+  {
+    "id": "HADIS_024",
+    "tema": "ibadah",
+    "arab": "مَنْ صَلَّى عَلَيَّ وَاحِدَةً صَلَّى اللهُ عَلَيْهِ عَشْرًا",
+    "arti": "Barangsiapa bersalawat kepadaku satu kali, niscaya Allah bersalawat kepadanya sepuluh kali.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["sholawat", "nabi", "doa"]
+  },
+  {
+    "id": "HADIS_025",
+    "tema": "sosial",
+    "arab": "مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ",
+    "arti": "Tidaklah sedekah itu mengurangi harta.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["sedekah", "harta", "rezeki"]
+  },
+  {
+    "id": "HADIS_026",
+    "tema": "akhlak",
+    "arab": "إِنَّ اللَّهَ لاَ يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ",
+    "arti": "Sesungguhnya Allah tidak melihat pada rupa-rupa kalian dan harta-harta kalian, akan tetapi Allah melihat pada hati-hati kalian dan amalan-amalan kalian.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["hati", "niat", "amal"]
+  },
+  {
+    "id": "HADIS_027",
+    "tema": "ibadah",
+    "arab": "لاَ تَجْعَلُوا بُيُوتَكُمْ مَقَابِرَ إِنَّ الشَّيْطَانَ يَنْفِرُ مِنَ الْبَيْتِ الَّذِي تُقْرَأُ فِيهِ سُورَةُ الْبَقَرَةِ",
+    "arti": "Janganlah kalian jadikan rumah kalian seperti kuburan, karena sesungguhnya syaithan akan lari dari rumah yang dibaca surat al-Baqarah di dalamnya.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["alquran", "rumah", "perlindungan"]
+  },
+  {
+    "id": "HADIS_028",
+    "tema": "sosial",
+    "arab": "لاَ يَدْخُلُ الْجَنَّةَ مَنْ لاَ يَأْمَنُ جَارُهُ بَوَائِقَهُ",
+    "arti": "Tidak masuk surga orang yang tetangganya tidak merasa aman karena perbuatannya.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["tetangga", "keamanan", "akhlak"]
+  },
+  {
+    "id": "HADIS_029",
+    "tema": "sosial",
+    "arab": "اَفْشُوْا السَّلاَمَ بَيْنَكُمْ",
+    "arti": "Sebarkanlah salam di antara kamu.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["salam", "perdamaian", "ukhuwah"]
+  },
+  {
+    "id": "HADIS_030",
+    "tema": "akhlak",
+    "arab": "قُلِ الْحَقَّ وَلَوْ كَانَ مُرَّا",
+    "arti": "Katakanlah yang benar walau pahit sekalipun.",
+    "sumber": "HR. Abu Daud",
+    "kata_kunci": ["jujur", "kebenaran", "berani"]
+  },
+  {
+    "id": "HADIS_031",
+    "tema": "sosial",
+    "arab": "اللّٰهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيْهِ",
+    "arti": "Allah senantiasa menolong hamba-Nya, selama hamba-Nya suka menolong saudaranya.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["tolong menolong", "bantuan", "persaudaraan"]
+  },
+  {
+    "id": "HADIS_032",
+    "tema": "sosial",
+    "arab": "كُلُّ مَعْرُوْفٍ صَدَقَةٌ",
+    "arti": "Setiap kebaikan adalah sedekah.",
+    "sumber": "HR. Al-Bukhari dan Muslim",
+    "kata_kunci": ["kebaikan", "sedekah", "amal"]
+  },
+  {
+    "id": "HADIS_033",
+    "tema": "sosial",
+    "arab": "الْيَدُ الْعُلْيَا خَيْرٌ مِنَ الْيَدِ السُّفْلَى",
+    "arti": "Tangan di atas lebih baik daripada tangan di bawah.",
+    "sumber": "HR. Bukhori dan Muslim",
+    "kata_kunci": ["memberi", "sedekah", "kemandirian"]
+  },
+  {
+    "id": "HADIS_034",
+    "tema": "sosial",
+    "arab": "خَيْرُ النَّاسِ أَنْفَعُهُمْ لِلنَّاسِ",
+    "arti": "Sebaik-baiknya manusia adalah yang paling bermanfaat bagi manusia lainnya.",
+    "sumber": "HR. Tirmidzi",
+    "kata_kunci": ["manfaat", "kebaikan", "berbagi"]
+  },
+  {
+    "id": "HADIS_035",
+    "tema": "akhlak",
+    "arab": "لاَ ضَرَرَ وَلاَ ضِرَارَ",
+    "arti": "Janganlah engkau saling membahayakan dan jangan saling merugikan.",
+    "sumber": "HR. Ibnu Majah dan Daruquthni",
+    "kata_kunci": ["tidak merugikan", "adil", "etika"]
+  },
+  {
+    "id": "HADIS_036",
+    "tema": "akhlak",
+    "arab": "اِيَّاكُمْ وَالظَّنْ",
+    "arti": "Jauhilah olehmu berburuk sangka.",
+    "sumber": "HR. Muttafaq Alaih",
+    "kata_kunci": ["prasangka", "husnudzon", "hati"]
+  },
+  {
+    "id": "HADIS_037",
+    "tema": "akhlak",
+    "arab": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ اْلآخِرِ فَليَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
+    "arti": "Barang siapa yang beriman kepada Allah dan hari akhir, maka hendaknya dia berkata yang baik atau diam.",
+    "sumber": "HR. Bukhori dan Muslim",
+    "kata_kunci": ["lisan", "diam", "iman"]
+  },
+  {
+    "id": "HADIS_038",
+    "tema": "akhlak",
+    "arab": "مِن حُسْنِ إِسْلاَمِ الْمَرْءِ تَرْكُهُ مَا لاَ يَعْنِيْهِ",
+    "arti": "Setengah dari bukti kebaikan Islamnya seseorang ialah meninggalkan sesuatu yang tidak berguna baginya.",
+    "sumber": "HR. Tirmidzi",
+    "kata_kunci": ["produktif", "fokus", "waktu"]
+  },
+  {
+    "id": "HADIS_039",
+    "tema": "adab",
+    "arab": "لاَ يَشْرَبَنَّ أَحَدٌ مِنْكُمْ قَائِمًا",
+    "arti": "Janganlah sekali-kali salah seorang di antara kalian minum sambil berdiri.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["minum", "adab", "kesehatan"]
+  },
+  {
+    "id": "HADIS_040",
+    "tema": "adab",
+    "arab": "مَا عَابَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ طَعَامًا قَطُّ",
+    "arti": "Nabi shallallahu 'alaihi wa sallam tidak pernah mencela makanan sekali pun.",
+    "sumber": "HR. Bukhari dan Muslim",
+    "kata_kunci": ["makanan", "syukur", "adab"]
+  },
+  {
+    "id": "HADIS_041",
+    "tema": "akhlak",
+    "arab": "وَيْلٌ لِلَّذِى يُحَدِّثُ فَيَكْذِبُ لِيُضْحِكَ بِهِ الْقَوْمَ",
+    "arti": "Celakalah orang yang berbicara lalu mengarang cerita dusta agar orang lain tertawa.",
+    "sumber": "HR. Abu Dawud",
+    "kata_kunci": ["dusta", "bohong", "lisan"]
+  },
+  {
+    "id": "HADIS_042",
+    "tema": "akidah",
+    "arab": "لاَ تَقُومُ السَّاعَةُ عَلَى أَحَدٍ يَقُولُ : اَللهُ اَللهُ",
+    "arti": "Tidak akan datang kiamat selama masih ada yang mengucap Allah… Allah…",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["kiamat", "dzikir", "iman"]
+  },
+  {
+    "id": "HADIS_043",
+    "tema": "akhlak",
+    "arab": "اِنَّ اللهَ لاَ يَنْظُرُ اِلىَ اَجْسَامِكُمْ وَلاَ اِلىَ صُوَرِكُمْ وَ لٰكِنْ يَنْظُرُ اِلىَ قُلُوْبِكُمْ",
+    "arti": "Sesungguhnya Allah tidak menilai tubuh kalian, dan tidak menilai rupa kalian, tetapi Allah menilai terhadap hati kalian.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["hati", "ikhlas", "inner beauty"]
+  },
+  {
+    "id": "HADIS_044",
+    "tema": "akhlak",
+    "arab": "لاَ تَغْضَبْ وَلَكَ الْجَنَّةُ",
+    "arti": "Jangan kamu marah, maka kamu akan masuk Surga.",
+    "sumber": "HR. Ath-Thabrani",
+    "kata_kunci": ["marah", "emosi", "surga"]
+  },
+  {
+    "id": "HADIS_045",
+    "tema": "akidah",
+    "arab": "اِتَّقِ اللّٰهَ حَيْثُ مَا كُنْتَ",
+    "arti": "Bertakwalah kepada Allah dimanapun kamu berada.",
+    "sumber": "HR. Tirmidzi",
+    "kata_kunci": ["takwa", "allah", "konsisten"]
+  },
+  {
+    "id": "HADIS_046",
+    "tema": "akidah",
+    "arab": "إِنَّ اللّٰهَ جَمِيْلُ يُحِبُّ الْجَمَلْ",
+    "arti": "Sesungguhnya Allah itu Maha Indah dan mencintai keindahan.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["indah", "keindahan", "estetika"]
+  },
+  {
+    "id": "HADIS_047",
+    "tema": "ibadah",
+    "arab": "صَلِّ الصَّلاَةَ لِوَقْتِهَا",
+    "arti": "Kerjakanlah salat tepat pada waktunya.",
+    "sumber": "HR. Muslim",
+    "kata_kunci": ["sholat", "waktu", "disiplin"]
+  }
+]
