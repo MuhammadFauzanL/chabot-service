@@ -163,7 +163,7 @@ def detect_intent(query):
 
 # ================= SEARCH FUNCTIONS =================
 def search_doa(query_keywords, top_k=10):
-    """Search doa dataset"""
+    """Search doa dataset - stricter scoring for quality"""
     results = []
     
     for doa in DOA_DATA:
@@ -172,7 +172,8 @@ def search_doa(query_keywords, top_k=10):
         
         score = calculate_match_score(query_keywords, searchable)
         
-        if score > 0.1:  # Low threshold to catch more results
+        # ✅ Higher threshold for doa (only very relevant ones)
+        if score > 0.2:
             results.append({
                 "score": float(score),
                 "data": {**doa, "source_type": "doa"}
@@ -181,7 +182,7 @@ def search_doa(query_keywords, top_k=10):
     return sorted(results, key=lambda x: x["score"], reverse=True)[:top_k]
 
 def search_hadis(query_keywords, top_k=10):
-    """Search hadis dataset"""
+    """Search hadis dataset - more lenient for variety"""
     results = []
     
     for hadis in HADIS_DATA:
@@ -191,7 +192,8 @@ def search_hadis(query_keywords, top_k=10):
         
         score = calculate_match_score(query_keywords, searchable, kata_kunci)
         
-        if score > 0.1:
+        # ✅ Lower threshold for hadis (show more variety)
+        if score > 0.05:
             results.append({
                 "score": float(score),
                 "data": {**hadis, "source_type": "hadis"}
@@ -236,11 +238,26 @@ def format_response(results, query, intent=None):
     doa_results = [r for r in results if r["data"]["source_type"] == "doa"]
     hadis_results = [r for r in results if r["data"]["source_type"] == "hadis"]
     
-    total = len(results)
+    # ✅ SMART MIXING: 2 doa + sisanya hadis (max 5 total)
+    final_results = []
+    
+    # Take top 2 doa (most relevant only)
+    if doa_results:
+        final_results.extend(doa_results[:2])
+    
+    # Fill rest with hadis (up to 5 total)
+    remaining_slots = 5 - len(final_results)
+    if hadis_results and remaining_slots > 0:
+        final_results.extend(hadis_results[:remaining_slots])
+    
+    # Sort by score again
+    final_results = sorted(final_results, key=lambda x: x["score"], reverse=True)
+    
+    total_found = len(doa_results) + len(hadis_results)
     doa_count = len(doa_results)
     hadis_count = len(hadis_results)
     
-    # Create message with indication of limited results
+    # Create message
     if intent:
         message = f"✨ Ditemukan untuk '{intent['name']}'"
     else:
@@ -251,19 +268,20 @@ def format_response(results, query, intent=None):
         else:
             message = f"✨ Ditemukan {hadis_count} hadis"
     
-    # Add info if there are more results
-    if total > 3:
-        message += f" (menampilkan 3 teratas dari {total} hasil)"
+    # Add info about showing count
+    showing = len(final_results)
+    if total_found > showing:
+        message += f" (menampilkan {showing} teratas dari {total_found} hasil)"
     
     return {
         "status": "OK",
         "message": message,
-        "data": results[:3],  # ✅ LIMIT TO 3 RESULTS
+        "data": final_results,  # ✅ Max 2 doa + 3 hadis
         "summary": {
-            "total": total,
+            "total": total_found,
             "doa_count": doa_count,
             "hadis_count": hadis_count,
-            "showing": min(3, total)  # ✅ SHOW MAX 3
+            "showing": showing
         }
     }
 
@@ -360,20 +378,21 @@ def chat():
             canonical_keywords = get_keywords(intent["canonical_query"])
             
             if intent["type"] == "doa":
-                results = search_doa(canonical_keywords)
-                # Add some hadis too if results are few
-                if len(results) < 3:
-                    results.extend(search_hadis(query_keywords))
+                # For doa intent: get top 2 doa + more hadis
+                doa_res = search_doa(canonical_keywords, top_k=5)
+                hadis_res = search_hadis(query_keywords, top_k=10)
+                results = doa_res + hadis_res
             else:
-                results = search_hadis(canonical_keywords)
-                # Add some doa too if results are few
-                if len(results) < 3:
-                    results.extend(search_doa(query_keywords))
+                # For hadis intent: prioritize hadis but add some doa
+                hadis_res = search_hadis(canonical_keywords, top_k=10)
+                doa_res = search_doa(query_keywords, top_k=3)
+                results = hadis_res + doa_res
         
         # General search (no strong intent or need more results)
-        if not results or len(results) < 2:
-            doa_results = search_doa(query_keywords)
-            hadis_results = search_hadis(query_keywords)
+        if not results or len(results) < 3:
+            # ✅ Get more hadis than doa for variety
+            doa_results = search_doa(query_keywords, top_k=5)
+            hadis_results = search_hadis(query_keywords, top_k=15)
             results = doa_results + hadis_results
         
         # Deduplicate and re-sort
@@ -463,7 +482,7 @@ def health():
             "intents": list(INTENTS.keys())
         },
         "features": {
-            "max_results_per_query": 3,
+            "max_results_per_query": "2 doa + 3 hadis (total 5)",
             "offline_safe": True,
             "timeout_seconds": 3
         }
@@ -475,6 +494,6 @@ if __name__ == "__main__":
     print(f"🚀 Islamic Chatbot Backend v2.1")
     print(f"📍 Running on port {port}")
     print(f"📚 Data loaded: {len(DOA_DATA)} doa, {len(HADIS_DATA)} hadis")
-    print(f"🎯 Max results per query: 3")
+    print(f"🎯 Results format: 2 doa (most relevant) + 3 hadis")
     print(f"✅ Offline-safe mode: enabled")
     app.run(host="0.0.0.0", port=port)
