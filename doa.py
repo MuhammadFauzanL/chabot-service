@@ -459,10 +459,6 @@ def health():
 
 # ================= RUN =================
 if __name__ == "__main__":
-    print("=" * 60)
-    print("🚀 Islamic Chatbot API Starting...")
-    print(f"📊 Loaded {len(DOA_DATA)} doa")
-    print(f"📊 Loaded {len(HADIS_DATA)} hadis")
-    print(f"📊 Loaded {len(INTENTS)} intents")
-    print("=" * 60)
-    app.run(port=5005, debug=True)
+    port = int(os.environ.get("PORT", 8080))
+    print(f"🚀 Running on port {port}")
+    app.run(host="0.0.0.0", port=port)
