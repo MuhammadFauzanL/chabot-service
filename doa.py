@@ -10,6 +10,8 @@ Features:
 - Multiple result types (doa/hadis)
 - Helpful suggestions
 - Time-based greetings using location (via Aladhan API for timezone)
+- Limited to 3 results per query (user-friendly)
+- Offline-safe with proper timeout handling
 =================================================================
 """
 
@@ -238,7 +240,7 @@ def format_response(results, query, intent=None):
     doa_count = len(doa_results)
     hadis_count = len(hadis_results)
     
-    # Create message
+    # Create message with indication of limited results
     if intent:
         message = f"✨ Ditemukan untuk '{intent['name']}'"
     else:
@@ -249,33 +251,38 @@ def format_response(results, query, intent=None):
         else:
             message = f"✨ Ditemukan {hadis_count} hadis"
     
+    # Add info if there are more results
+    if total > 3:
+        message += f" (menampilkan 3 teratas dari {total} hasil)"
+    
     return {
         "status": "OK",
         "message": message,
-        "data": results[:5],  # Limit to top 5
+        "data": results[:3],  # ✅ LIMIT TO 3 RESULTS
         "summary": {
             "total": total,
             "doa_count": doa_count,
             "hadis_count": hadis_count,
-            "showing": min(5, total)
+            "showing": min(3, total)  # ✅ SHOW MAX 3
         }
     }
 
-# ================= TIME-BASED GREETING =================
+# ================= TIME-BASED GREETING (OFFLINE-SAFE) =================
 def get_time_based_greeting(lat=None, lng=None):
     """Get greeting based on current time in user's location"""
     timezone_name = 'Asia/Jakarta'  # Default to Jakarta
     
+    # ✅ OFFLINE-SAFE: Try to get timezone, but don't block if it fails
     if lat is not None and lng is not None:
         try:
             url = f'https://api.aladhan.com/v1/timings?latitude={lat}&longitude={lng}&method=11'
-            response = requests.get(url, timeout=5)
+            response = requests.get(url, timeout=3)  # ✅ SHORT TIMEOUT
             if response.status_code == 200:
                 data = response.json()
                 timezone_name = data['data']['meta']['timezone']
         except Exception as e:
-            print(f"Error fetching timezone: {str(e)}")
-            # Fallback to default
+            print(f"⚠️ Timezone fetch failed (offline?): {str(e)}")
+            # Fallback to default - no problem!
     
     try:
         tz = pytz.timezone(timezone_name)
@@ -290,7 +297,7 @@ def get_time_based_greeting(lat=None, lng=None):
         else:
             return "Selamat malam"
     except Exception as e:
-        print(f"Error getting time: {str(e)}")
+        print(f"⚠️ Time greeting failed: {str(e)}")
         return "Selamat datang"
 
 # ================= MAIN CHAT ENDPOINT =================
@@ -376,7 +383,7 @@ def chat():
         return jsonify(format_response(results, query, intent))
     
     except Exception as e:
-        print(f"Error in /chat: {str(e)}")
+        print(f"❌ Error in /chat: {str(e)}")
         return jsonify({
             "status": "ERROR",
             "message": "Maaf, terjadi kesalahan server 😔"
@@ -449,16 +456,25 @@ def health():
     return jsonify({
         "status": "OK",
         "service": "Islamic Chatbot API",
-        "version": "2.0",
+        "version": "2.1",
         "data_stats": {
             "doa_count": len(DOA_DATA),
             "hadis_count": len(HADIS_DATA),
             "intents": list(INTENTS.keys())
+        },
+        "features": {
+            "max_results_per_query": 3,
+            "offline_safe": True,
+            "timeout_seconds": 3
         }
     })
 
 # ================= RUN =================
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
-    print(f"🚀 Running on port {port}")
+    print(f"🚀 Islamic Chatbot Backend v2.1")
+    print(f"📍 Running on port {port}")
+    print(f"📚 Data loaded: {len(DOA_DATA)} doa, {len(HADIS_DATA)} hadis")
+    print(f"🎯 Max results per query: 3")
+    print(f"✅ Offline-safe mode: enabled")
     app.run(host="0.0.0.0", port=port)
